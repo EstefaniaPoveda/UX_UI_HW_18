@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myUxSkills {
+    text-align: center;
+}
+.myUxSkills .parentContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    /* background-color: lightblue; */
+}
+.myUxSkills .childContainer {
+    width: 30%;
+    /* background-color: lightpink; */
+}
+.myUxSkills .parentContainer .childContainer img {
+    width: 100%;
+}
+.myUxSkills .parentContainer .childContainer h1 {
+    margin: 0.5em auto;
+}
+.myUxSkills .parentContainer .childContainer p {
+    text-align: left;
+}
+.caseStudy {
+    display:inline-flex;
+}
+.caseStudy img {
+    width: 300px;
+    height: auto;
+    margin: 3em;
+
+}
+.caseStudy button {
+    margin: 0.5em;
+}
+h2 {
+    text-align: center;
+    margin: 3em;
+}
+
+    @media all and (max-width: 600px) {
+        .myUxSkills .parentContainer {
+            display:block;          
+    }
+
+    .myUxSkills .childContainer {
+    margin: auto; 
+    width: 70%;  
+    }
+
+    .caseStudy {
+        display:block;
+        margin: auto;
+        width: 70%;
+    }
+    .caseStudy img {
+        display: block;
+    }
+}
